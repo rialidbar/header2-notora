@@ -1,0 +1,56 @@
+/*common css*/
+body{
+	margin: 0;
+	padding: 0;
+
+	font-family: sans-serif;	
+}
+/*common css end*/
+/*header start*/
+header{
+
+}
+.wrapper{
+	/*border: 1px solid red;*/
+	width: 60%;
+	margin: 0 auto;
+	overflow: hidden;
+
+
+}
+.logo{
+	/*border: 1px solid green;*/
+	width: 14%;
+	float:left;
+
+}
+.logo img{
+	width: 100%;
+	margin-top: 8px;
+}
+.menu{
+	/*border: 1px solid yellow;*/
+	width: 84%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+list-style: none;
+	float: left;
+}
+.menu ul li a{
+	padding: 0 9px;
+	text-decoration: none;
+	margin-bottom: 13px;
+	font-size: 14px;
+	color:#000000;
+}
+.menu ul li:first-child a{
+color: #A7243A;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*header end*/
